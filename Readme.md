@@ -51,12 +51,26 @@ platforms (currently).
 
 ## Usage
 
-Run following commnands in terminal after cloning this repo
+Run following commands:
 ```
-cd <project_dir>
+git clone https://github.com/DeltaC6/CMake_Boilerplate.git <project_name>
+cd <project_name>
 git submodule init && git submodule update
+```
+or simply run the following command
+```
+git clone --recursive https://github.com/DeltaC6/CMake_Boilerplate.git <proejct_name>
+```
+---
+
+To compile and build the project:
+```
+cd <project_name>
 mkdir build
+cd build
 cmake ..
 make
 ```
 Or leave the configuration and build on VSCode with CMake Extension
+
+---
